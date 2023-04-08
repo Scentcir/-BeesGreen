@@ -1,0 +1,105 @@
+.services ul li i {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 20px;
+  border: 2px solid #21c491;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: #21c491;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.icon-shape {
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-shape-primary {
+  color: rgb(33, 196, 145);
+  background-color: rgba(33, 196, 145, .2);
+}
+
+.icon-shape span {
+  font-size: 3rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.height-max {
+  height: 100%;
+}
+
+.h-50 {
+  height: 50% !important;
+}
+
+.timeline.timeline-six .row .col.middle-line {
+  border-right: 2px solid #f0f3f6;
+}
+
+.timeline.timeline-six .row .dot-separator {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.shadow-soft {
+  box-shadow: 0 .75rem 1.5rem rgba(18, 38, 63, .1) !important;
+}
+
+.lh-200 {
+  line-height: 2;
+}
+
+.timeline {
+  width: 100%;
+}
+
+/*@media (min-width: 992px){
+.timeline .timeline-card:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 0.75rem;
+    border: 8px solid #24262b;
+    border-color: transparent #e0e6ec #e0e6ec transparent;
+    box-sizing: border-box;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+}}*/
+
+.cc-sect button {
+  background-color: #21c491;
+  border-color: #21c491;
+}
+
+.cc-sect button a {
+  color: #fff;
+}
+
+.footer-description img {
+  width: 154px;
+}
+
+
+.timeline .sh-images {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}

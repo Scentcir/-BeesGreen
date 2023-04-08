@@ -1,0 +1,68 @@
+# MAIN base
+baseURL = "https://bees-green.vercel.app/"
+languageCode = "en-us"
+title = "BEES GREEN"
+theme = "apsho"
+
+# Navigation Bar
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+[[menu.main]]
+    name = "Services"
+    url = "/services"
+    weight = 2
+[[menu.main]]
+    name = "Company News"
+    url = "/company-news"
+    weight = 3
+
+# Footer Sitemap
+[[menu.sitemap]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.sitemap]]
+    name = "Latest Article"
+    url = "/company-news"
+    weight = 2
+#[[menu.sitemap]]
+#    name = "Privacy & Policy"
+#    url = "/privacy"
+#    weight = 3
+[[menu.sitemap]]
+    name = "Contact"
+    url = "/contact"
+    weight = 3
+
+# Footer Address
+[params.address]
+address = "Shanghai, China"
+email = "Shannon@nineglasses.com"
+phone = "+(86) 1324141213"
+
+# Footer Social
+[params.social]
+facebook = "https://www.facebook.com/pg/"
+twitter = "https://twitter.com/"
+github = "https://github.com/"
+
+[params]
+
+# Header
+logo = "images/logo.png"
+fabFormURL = "https://formspree.io/f/meqwzqeb"
+googleAnalytics = "UA-175025671-2"
+
+# Footer
+footerTitle = "Get the latest news"
+copyright1 = "All right reserved"
+copyright2 = "Copyright © BEES GREEN {year}"
+
+#contact
+email = "Shannon@nineglasses.com"

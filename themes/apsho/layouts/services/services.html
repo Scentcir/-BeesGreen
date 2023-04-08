@@ -1,0 +1,393 @@
+{{ define "main" }} {{ "<!--servicesHeader.html-->" | safeHTML }}
+<section class="page-header">
+  <div class="container">
+    <div class="container-fluid py-5 justify-content-center">
+      <h1 class="display-5 fw-bold">{{ .Params.description }}</h1>
+      <p class="col-lg-8 mx-auto">{{ .Params.description1 }}</p>
+      <!--<button class="btn btn-primary btn-lg" type="button">Example button</button>-->
+    </div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-4">
+        <div
+          class="card shadow-soft bg-white border-light animate-up-3 text-gray py-4 mb-5 mb-lg-0 shadow-sm height-max">
+          <div class="text-center pb-0">
+            <div class="icon icon-shape icon-shape-primary rounded-circle mb-3">
+              <span class="fas fa-bullhorn"><i class="las la-solar-panel"></i></span>
+            </div>
+            <h4 class="text-black">{{ .Params.subject }}</h4>
+            <p>{{ .Params.depict }}</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Savings & Government Incentives</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Environmental Impact</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Minimize Carbon Output</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div
+          class="card shadow-soft bg-white border-light animate-up-3 text-gray py-4 mb-5 mb-lg-0 shadow-sm height-max">
+          <div class="text-center pb-0">
+            <div class="icon icon-shape icon-shape-primary rounded-circle mb-3">
+              <span class="fas fa-bullhorn"><i class="las la-sliders-h"></i></span>
+            </div>
+            <h4 class="text-black">{{ .Params.subject1 }}</h4>
+            <p>{{ .Params.depict1 }}</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Preliminary Assessment & Consultation </div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>PV Solar System Design</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Verification of Permits</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Installation of Solar PV System</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Testing & Commissioning</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Grid Connection</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Operation, Maintenance, and Optimization</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div
+          class="card shadow-soft bg-white border-light animate-up-3 text-gray py-4 mb-5 mb-lg-0 shadow-sm height-max">
+          <div class="text-center pb-0">
+            <div class="icon icon-shape icon-shape-primary rounded-circle mb-3">
+              <span class="fas fa-bullhorn"><i class="las la-tools"></i></span>
+            </div>
+            <h4 class="text-black">{{ .Params.subject2 }}</h4>
+            <p>{{ .Params.depict2 }}</p>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Village House (NTEH)</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Commercial & Industrial Premise</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Idle Land</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Residential Space - Houses, etc</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Outdoor Parking Lot</div>
+              </li>
+              <li class="d-flex px-0 pt-2">
+                <div class="icon icon-sm icon-success mr-4">
+                  <i class="ti-check"></i>
+                </div>
+                <div>Farmland</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-lg pt-0 line-bottom-light">
+  <div class="container pt-5 pb-5">
+    <div class="row justify-content-center mb-5 mb-lg-6">
+      <div class="col-12 col-md-8 text-center">
+        <h2 class="display-5 fw-bold">Service process</h2>
+        <p class="">
+
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="timeline timeline-six px-3 px-lg-0">
+        {{ range .Pages }}
+        <div class="row no-gutters">
+          <div class="col-lg"></div>
+          <div class="col-lg-1 text-center flex-column d-none d-lg-flex">
+            <div class="row h-50">
+              <div class="col middle-line">&nbsp;</div>
+              <div class="col ">&nbsp;</div>
+            </div>
+            <span class="d-none d-lg-block m-4 h4 lh-200 dot-separator bg-soft shadow-soft border border-light text-primary">{{ .Params.fisnumber }}</span>
+            <div class="row h-50">
+              <div class="col middle-line">&nbsp;</div>
+              <div class="col">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-lg py-2">
+            <div class="card timeline-card bg-soft shadow-soft border-light p-3">
+              <div class="card-body p-4">
+                
+                <h4 class="mb-3">
+                  <span class="d-lg-none">{{ .Params.fisnumber }}.</span> {{ .Params.righttitle }}
+                </h4>
+                <div class="sh-images">
+                <img src="{{ .Params.featureImage1 | absURL }}" alt="" class="col-lg py-2 pl-0"/></div>
+                <p class="my-2">
+                  {{ .Params.rightdescription }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg py-2">
+            <div class="card left-timeline-card bg-soft shadow-soft border-light p-3">
+              <div class="card-body p-4">
+                <h4 class="mb-3">
+                  <span class="d-lg-none">{{ .Params.secnumber }}.</span> {{ .Params.lefttitle }}
+                </h4>
+                <div class="sh-images">
+                <img src="{{ .Params.featureImage2 | absURL }}" alt="" class="col-lg py-2 pl-0"/>
+              </div>
+                <p class="my-2">
+                  {{ .Params.leftdescription }}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-1 text-center flex-column d-none d-lg-flex">
+            <div class="row h-50">
+              <div class="col middle-line">&nbsp;</div>
+              <div class="col">&nbsp;</div>
+            </div>
+            <span class="m-4 h4 lh-200 dot-separator bg-soft shadow-soft border border-light text-primary">{{.Params.secnumber }}</span>
+            <div class="row h-50">
+              <div class="col middle-line">&nbsp;</div>
+              <div class="col">&nbsp;</div>
+            </div>
+          </div>
+          <div class="col-lg"></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+</section>
+
+
+
+
+
+
+<section class="section section-lg pt-5 pb-5 bg-soft cc-sect">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="mb-4 col-lg-8 mx-auto">Provide a variety of purchase or partnership model options</h2>
+        <p>Meet the needs of users at different levels with differentiated services</p>
+      </div>
+
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-4">
+              <div
+                class="card shadow-soft bg-white border-light animate-up-3 text-gray pb-4 mb-5 mb-lg-0 shadow-sm height-max">
+                <div class="text-center pb-0 py-4 bg-primary">
+                  <h3 class="text-white">Direct Purchase</h3>
+                </div>
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Direct payment</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Direct payment to Bees Green for installation, verification and testing</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>FiT payments immediately after installation with quick payback period</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Payment can be made by credit card, please check with the staff for details</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="col-12 col-lg-4">
+              <div
+                class="card shadow-soft bg-white border-light animate-up-3 text-gray pb-4 mb-5 mb-lg-0 shadow-sm height-max">
+                <div class="text-center pb-0 py-4 bg-primary">
+                  <h3 class="text-white">Installment Payments</h3>
+                </div>
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Monthly payment</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Financing option to fund direct purchase (requires financial loan)</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>FiT payments immediately after installation to cover loan repayments</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Reduce initial investments to maximize cash flows</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="col-12 col-lg-4">
+              <div
+                class="card shadow-soft bg-white border-light animate-up-3 text-gray pb-4 mb-5 mb-lg-0 shadow-sm height-max">
+                <div class="text-center pb-0 py-4 bg-primary">
+                  <h3 class="text-white">Profit Sharing</h3>
+                </div>
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Guaranteed monthly payment</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Bees Green will install the PV system for free</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Bees Green will share the FiT income with client until 2033</div>
+                    </li>
+                    <li class="d-flex px-0 pt-2">
+                      <div class="icon icon-sm icon-success mr-4">
+                        <i class="ti-check"></i>
+                      </div>
+                      <div>Bees Green will provide Maintenance service until 2033</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+              </div>
+            </div>
+
+
+
+
+
+            <div class="col-12 text-center pt-5"> 
+              <button type="button" class="btn btn-secondary animate-up-2">
+                <a href="{{ "contact" | absURL }}" class="mr-2">Contact Us</a>
+              </button>
+              </div>
+
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

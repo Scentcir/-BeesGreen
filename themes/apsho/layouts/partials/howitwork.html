@@ -1,0 +1,20 @@
+{{ with .Site.Data.howitwork }}
+{{ if .enable }}
+<section class="howitwork" id="howitwork">
+  <div class="container screenshots-title">
+    <div class="section-title col-lg-10 mx-auto">
+      <h2>
+        {{ .title }}
+      </h2>
+      <p>
+        {{ .description }}
+      </p>
+    </div>
+    <div class="mx-auto">
+      <img src={{ .image }} alt="feature-image" class="col-lg-12 mx-auto"/>
+    </div>
+  </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

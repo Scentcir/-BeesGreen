@@ -1,0 +1,14 @@
+---
+enable: true
+title: Bees Green, Solar energy that gives you peace of mind
+description: By promoting renewable energy development, power buy-back and on-grid tariff programs, we not only save energy, but also reduce pollutant emissions, allowing children to grow up in a pollution-free and healthy environment.
+description2: Bees Green offers a full range of solar solutions and technical services, including site evaluation, system design, installation and testing, to meet the diverse needs of our commercial customers.
+buttonText: Learn more
+Title2nd: A variety of cooperation models, tailor-made solutions
+description2nd: Whether it's an unused roof, a parking lot or a farm, Bees Green can create a solar system that works for you. After installation, you can also check the performance of the system and check if it is working properly through the remote monitoring system. A green planet for your children's future.
+image1: images/feature/feature-illustration-one.svg
+image2: images/feature/storage_right.png
+checkItem:
+  - text: Direct Purchase Model
+  - text: Installment Payments Model
+  - text: Profit Sharing Model

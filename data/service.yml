@@ -1,0 +1,29 @@
+#  icons can be found on https://themify.me/themify-icons
+---
+enable: true
+title: Something You Need To Know
+service:
+  - icon: ti-layout-column2
+    title: Clean
+    description: Self-consumption，Maximize the use of clean energy
+
+  - icon: ti-split-v-alt
+    title: Flexible
+    description: Capacity reaches to 60kWh with expansion battery box
+
+  - icon: ti-stats-up
+    title: Economic
+    description: The characteristics of charging and discharging in different periods realize the function of power peak shaving and valley filling
+    
+  - icon: ti-comments-smiley
+    title: Smart
+    description: Real-time monitoring, can track system operation status from anywhere
+
+  - icon: ti-lock
+    title: Reliable
+    description: Stable power supply, high safety and reliability
+
+  - icon: ti-crown
+    title: High efficiency
+    description: The maximum efficiency can reach 97.4% (single phase) and 98.2% (three phase)
+    

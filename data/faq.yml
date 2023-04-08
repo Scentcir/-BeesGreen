@@ -1,0 +1,25 @@
+---
+enable: true
+title: Frequently asked questions
+description: Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.
+faqItem:
+  - question: Why choose BEES GREEN?
+    answer: We have excellent design team, rigorous procurement process, mature construction and management team, many years of experience in the development and construction of photovoltaic power plants, more than 2GW power plant practice accumulation, with professional cast power station brilliance
+    dataTarget: One
+    show: show
+
+  - question: When does the warranty start?
+    answer: The effective date of the warranty is the day after the date of installation of the product or the day after 90 days from the date of shipment of Bees Green, whichever is earlier.
+    dataTarget: Two
+    show: 
+    
+  - question: Do I need to clean my components?
+    answer: Normally no cleaning is required as long as the modules are installed at an adequate angle (at least 15°) (modules are self-cleaning by rainwater). Regular maintenance is recommended to remove fecal contamination. If the module is fouled, it can be cleaned early in the morning or late in the evening with a soft tool (e.g. sponge) and water. Do not scrape the feces, as this may cause scratches to the glass.
+    dataTarget: Three
+    show: 
+
+  - question: When is it appropriate to clean the components?
+    answer: To avoid heat stress, it is recommended that the cleaning time be placed in the early morning or late evening. If you do need to clean during the day, make sure the ambient temperature is around 25°C.
+    dataTarget: four
+    show: 
